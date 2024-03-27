@@ -4,7 +4,7 @@ import WorldImage from "../../public/Images/world.webp"
 export default function Navbar() {
 
   return (
-    <div className="bg-darkgreen text-white h-[15vh] w-full flex justify-around items-center">
+    <div className="bg-darkgreen text-white max-md:h-[12vh] h-[15vh] w-full flex justify-around items-center">
 
       <div className="flex items-center">
         <img src={WorldImage} className="h-12" />

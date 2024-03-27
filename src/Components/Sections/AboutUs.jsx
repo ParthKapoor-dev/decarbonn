@@ -12,27 +12,27 @@ export default function AboutUs() {
       title: "Precise Tracking",
       description: "We carefully check how much CO₂ is offset by each project, so we can promise you lasting impact.",
       image: Image1,
-      imageUrl: "../../../public/Images/about1.webp"
+      imageUrl: "/public/Images/about1.webp"
     },
     {
       title: "Every Dollar Makes a difference",
       description: "Our projects wouldn't happen without your support. With DeCarbonn, your money makes a real impact.",
       image: Image2,
-      imageUrl: "../../../public/Images/about2.webp"
+      imageUrl: "public/Images/about2.webp"
 
     },
     {
       title: "Internationally Recognized Credits Issuer",
       description: "We make sure all our projects are vetted by Internationally recognized issuers like Verra, Gold Standard, CSI etc",
       image: Image3,
-      imageUrl: "../../../public/Images/about3.webp"
+      imageUrl: "/public/Images/about3.webp"
 
     },
     {
       title: "Regular Updates",
       description: "We get data straight from projects on the ground, so you can track your impact, month by month.",
       image: Image4,
-      imageUrl: "../../../public/Images/about4.webp"
+      imageUrl: "/public/Images/about4.webp"
     },
   ]
 
