@@ -15,13 +15,13 @@ export default {
       colors: {
         'darkgreen': "#133009"
       },
-      // backgroundImage: {
-      //   'about1': "url('/images/about1.webp')",
-      //   'about2': "url('/images/about2.webp')",
-      //   'about3': "url('/images/about3.webp')",
-      //   'about4': "url('/images/about4.webp')",
+      backgroundImage: {
+        'about1': "url('/public/images/about1.webp')",
+        'about2': "url('/images/about2.webp')",
+        'about3': "url('/images/about3.webp')",
+        'about4': "url('/images/about4.webp')",
 
-      // }
+      }
     },
   },
   plugins: [],
