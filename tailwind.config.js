@@ -20,8 +20,7 @@ export default {
         'about2': "url('/images/about2.webp')",
         'about3': "url('/images/about3.webp')",
         'about4': "url('/images/about4.webp')",
-
-      }
+      },
     },
   },
   plugins: [],

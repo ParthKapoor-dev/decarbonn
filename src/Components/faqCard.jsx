@@ -29,7 +29,7 @@ export default function FaqCard({ item }) {
 
 
       <div className="overflow-hidden h-0 duration-500" ref={containerRef}>
-        <div ref={ansRef} className="w-[50vw] max-md:w-[90vw] flex flex-col border-2 border-slate-200 px-10 py-4 shadow-lg duration-500 translate-y-[-100%]">
+        <div ref={ansRef} className="w-[50vw] max-md:w-[90vw] flex flex-col border-2 border-slate-200 px-10 py-4 shadow-lg duration-500 translate-y-[-100%] ">
           {item.answer}
         </div>
       </div>

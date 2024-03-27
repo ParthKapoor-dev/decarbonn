@@ -32,10 +32,10 @@ const ProjectData = [
 export default function ProjectSection() {
 
   return (
-    <div className="flex flex-col px-4 gap-10  ">
+    <div className="flex flex-col px-4 gap-10  " id="projects">
 
       {ProjectData.map(item => (
-        <SingleProject item={item} />
+        <SingleProject item={item} key={item.title} />
       ))}
 
     </div>

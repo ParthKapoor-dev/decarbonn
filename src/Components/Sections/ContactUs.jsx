@@ -63,11 +63,11 @@ function RightSection() {
         </p>
 
         <div className="flex flex-col">
-          <Link>
+          <Link to='https://www.linkedin.com/in/parthkapoor08/' target="blank">
             LinkedIn
           </Link>
 
-          <Link>
+          <Link to='https://www.instagram.com/parthkapoor_te/' target="blank">
             Instagram
           </Link>
 
@@ -84,11 +84,11 @@ function RightSection() {
         </p>
 
         <div className="flex flex-col">
-          <Link>
+          <Link to='https://github.com/parthkapoor-dev' target="blank">
             Home
           </Link>
 
-          <Link>
+          <Link to='https://linktr.ee/parthkapoordev' target="blank">
             Project
           </Link>
 

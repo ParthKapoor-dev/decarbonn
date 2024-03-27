@@ -4,21 +4,9 @@ import Button from "../Button"
 
 export default function HomeSection() {
 
-  const containerRef = useRef();
-  const screenRef = useRef();
-
-  function handleMouseEnter() {
-    screenRef.current.style.transform = 'rotate(45deg) translateY(0%)'
-  }
-
-  function handleMouseLeave() {
-    screenRef.current.style.transform = 'rotate(45deg) translateY(120%)'
-
-  }
-
   return (
 
-    <div>
+    <div id="home">
 
       <div className="mx-10 my-20 flex justify-center items-center flex-col">
         <div className="font-bold flex-col items-center justify-center text-4xl flex gap-2 max-md:text-xl">
@@ -40,7 +28,7 @@ export default function HomeSection() {
           </button> */}
           <Button data={'CONNECT'} />
 
-          <button className="px-6 py-2 border-2 border-darkgreen text-darkgreen rounded-lg">
+          <button className="px-6 py-2 border-2 border-darkgreen text-darkgreen rounded-lg hover:scale-110 duration-150">
             GET IN TOUCH
           </button>
         </div>

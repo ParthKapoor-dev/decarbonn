@@ -1,18 +1,36 @@
 
 export default function Card({ item }) {
 
-  console.log(item)
 
   return (
-    <div className="h-[40vh] w-[20vw] max-md:w-[80vw] overflow-hidden rounded">
-      <div className="h-[40vh] w-[20vw] max-md:w-[80vw] grayscale bg-top bg-cover hover:grayscale-0 hover:scale-110 duration-500"
-        style={{ backgroundImage: 'url(' + item.image + ')' }}>
-        <div>
-        </div>
-      </div>
+    // <div onMouseLeave={leave} onMouseEnter={handleEnter} className="h-[40vh] w-[20vw] max-md:w-[80vw] overflow-hidden rounded relative z-[-1]" >
+    //   {/* <div className="h-[40vh] w-[20vw] max-md:w-[80vw]  bg-top bg-cover hover:blur-sm duration-200"
+    //     style={{ backgroundImage: 'url(' + item.image + ')' }}> */}
+    //   <div>
+    //     <img src={item.image} />
+    //   </div>
 
-      <div className=" bg-slate-100 px-1 mx-1 z-10 relative bottom-20 font-bold text-xl text-black ">
+    //   <div className="relative z-10" ref={divRef}>
+    //     <div>
+    //       {item.title}
+    //     </div>
+    //     <div>
+    //       {item.description}
+    //     </div>
+    //   </div>
+    //   {/* </div> */}
+
+    // </div>
+
+    <div className="flex flex-col w-72 h-[64vh] max-md:h-[54vh] rounded-md overflow-hidden shadow-md">
+      <div>
+        <img src={item.image} className="w-72 object-contain" />
+      </div>
+      <div className="px-4 py-2 font-bold text-lg h-20 max-md:h-14">
         {item.title}
+      </div>
+      <div className="px-4 py-2">
+        {item.description}
       </div>
     </div>
   )

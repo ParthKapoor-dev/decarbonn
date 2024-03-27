@@ -9,7 +9,7 @@ export default function FAQSection() {
     },
     {
       question: "Can I get more details on the project than already on the site?",
-      answer: 'Please Contact ME'
+      answer: 'MERN Stack & Next JS web Dev -> Parth Kapoor (parthkapoor.coder@gmail.com)'
     },
     {
       question: "When will I receive Carbon credits in my account",
@@ -19,14 +19,14 @@ export default function FAQSection() {
 
 
   return (
-    <div className="flex justify-center items-center flex-col mb-40 mt-20">
+    <div className="flex justify-center items-center flex-col mb-40 mt-20" id="contactUs">
       <div className="font-bold text-4xl mb-10 max-md:text-xl">
         Frequently asked questions
       </div>
 
       <div className="flex flex-col gap-4">
         {data.map(item => (
-          <FaqCard item={item} />
+          <FaqCard item={item} key={item.question} />
         ))}
       </div>
 
