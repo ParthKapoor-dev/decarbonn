@@ -40,7 +40,7 @@ export default function HomeSection() {
           </button> */}
           <Button data={'CONNECT'} />
 
-          <button className="px-6 py-2 border-2 border-darkgreen text-darkgreen rounded">
+          <button className="px-6 py-2 border-2 border-darkgreen text-darkgreen rounded-lg">
             GET IN TOUCH
           </button>
         </div>

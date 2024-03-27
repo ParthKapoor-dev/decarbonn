@@ -1,7 +1,7 @@
-import Image1 from "../../../public/Images/about1.webp"
-import Image2 from "../../../public/Images/about2.webp"
-import Image3 from "../../../public/Images/about3.webp"
-import Image4 from "../../../public/Images/about4.webp"
+import Image1 from "/public/Images/about1.webp"
+import Image2 from "/public/Images/about2.webp"
+import Image3 from "/public/Images/about3.webp"
+import Image4 from "/public/Images/about4.webp"
 import Card from "../Card"
 
 export default function AboutUs() {
