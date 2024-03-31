@@ -9,7 +9,7 @@ export default function HomeSection() {
     <div id="home">
 
       <div className="mx-10 my-20 flex justify-center items-center flex-col">
-        <div className="font-bold flex-col items-center justify-center text-4xl flex gap-2 max-md:text-xl">
+        <div className="font-bold flex-col items-center justify-center text-4xl flex gap-2 max-md:text-2xl max-sm:text-xl">
           <p>
             DeCarbonn your business by
           </p>

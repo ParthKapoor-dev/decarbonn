@@ -31,7 +31,7 @@ export default function ContactSection() {
 function LeftSection() {
 
   return (
-    <div className="w-[50vw] h-[30vh] max-md:h-[20vh] max-md:w-full flex flex-col justify-center px-40 max-md:px-2 text-white">
+    <div className="w-[50vw] h-[30vh] max-md:h-[20vh] max-lg:px-20 max-md:w-full flex flex-col justify-center px-32 max-md:px-2 text-white">
       <div className="text-3xl max-md:text-base font-bold flex items-center ">
         <img src={WorldImage} className="h-10" />
         DeCarbonn
@@ -41,8 +41,8 @@ function LeftSection() {
         Have any Query ?
       </div>
 
-      <form className="text-black">
-        <input type="email" placeholder="email@gmail.com" className=" px-4 py-1  rounded focus-visible:outline-none w-[18vw] mt-4 max-md:w-[60vw]" />
+      <form className="text-black w">
+        <input type="email" placeholder="email@gmail.com" className=" px-4 py-1  rounded focus-visible:outline-none w-[14vw] mt-4 max-md:w-[60vw]" />
         <button type="submit" className="bg-white rounded px-4 py-1 ml-4">
           Send
         </button>
@@ -55,7 +55,7 @@ function RightSection() {
 
 
   return (
-    <div className="w-[50vw] h-[30vh] max-md:h-[20vh] flex justify-center px-40 text-white gap-8 mt-12 text-lg max-md:text-base">
+    <div className="w-[50vw] h-[30vh] max-md:h-[20vh] max-md:w-full flex justify-center text-white gap-8 mt-12 text-lg max-md:text-base">
 
       <div className="">
         <p className="font-bold mb-2">

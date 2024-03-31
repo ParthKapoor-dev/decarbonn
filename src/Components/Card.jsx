@@ -22,11 +22,11 @@ export default function Card({ item }) {
 
     // </div>
 
-    <div className="flex flex-col w-72 h-[64vh] max-md:h-[54vh] rounded-md overflow-hidden shadow-md">
+    <div className="flex flex-col w-72 h-[64vh] max-md:h-full max-md:w-[70vw] rounded-md overflow-hidden shadow-md">
       <div>
-        <img src={item.image} className="w-72 object-contain" />
+        <img src={item.image} className="w-72 max-md:w-[70vw] object-contain" />
       </div>
-      <div className="px-4 py-2 font-bold text-lg h-20 max-md:h-14">
+      <div className="px-4 py-2 font-bold text-lg h-20 max-md:h-full">
         {item.title}
       </div>
       <div className="px-4 py-2">
