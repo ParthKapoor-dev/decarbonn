@@ -33,6 +33,11 @@ export default function Navbar() {
     }
   }
 
+  function LinksClicked() {
+    linksRef.current.style.display = 'none';
+    setOpenLinks(false)
+  }
+
   return (
     <div className="bg-darkgreen text-white max-md:h-[12vh] h-[15vh] w-full flex justify-around items-center">
 
@@ -48,7 +53,7 @@ export default function Navbar() {
         <img src={MenuImage} className="inset-1 h-6" />
       </button>
 
-      <div className="flex justify-between items-center gap-12 duration-500 max-md:navbar " ref={linksRef}>
+      <div className="flex justify-between items-center gap-12 duration-500 max-md:navbar " ref={linksRef} onClick={LinksClicked}>
 
         <a href="/#home" className="hover:translate-y-[-40%] hover:scale-105 duration-300 ">
           Home
