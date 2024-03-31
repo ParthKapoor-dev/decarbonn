@@ -34,6 +34,7 @@ export default function Navbar() {
   }
 
   function LinksClicked() {
+    if (!openLinks) return;
     linksRef.current.style.display = 'none';
     setOpenLinks(false)
   }
